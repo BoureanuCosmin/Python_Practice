@@ -1,7 +1,7 @@
 line01 = "*******************"  # header
 line02 = "*     WELCOME!    *"  # main
 line03 = "*******************"  # footer
-        line04 = "* * * * * * * * * * * *"
+line04 = "* * * * * * * * * * * *"
 
 # start printing
 print("")

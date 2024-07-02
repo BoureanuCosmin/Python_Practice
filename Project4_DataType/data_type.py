@@ -1,3 +1,5 @@
+import math
+
 #### String ####
 
 # literal assignment
@@ -74,5 +76,74 @@ last = "Boureanu"
 
 # # Build a menu
 
-title = "menu".upper()  #!!!!! Folositor !!!!!
+# PROIECT MENIU CAFENEA
+
+title = "MENU".upper()  #!!!!! Folositor !!!!!
 print(title.center(20, "="))  #!!!!! Folositor !!!!!
+
+print("")
+print("Cafea cu lapte".ljust(20, ".") + "$3".rjust(4))
+print("Pizza".ljust(20, ".") + "$12".rjust(5))
+print("Ceai".ljust(20, ".") + "$0.98".rjust(7))
+print("Croisant + Cafea".ljust(20, ".") + "$10".rjust(5))
+print("Egspresso".ljust(20, ".") + "$2".rjust(4))
+print("")
+
+# string index values
+
+print(first[1])
+print(first[-1])
+print(first[0:2])
+print(first[1:])
+print("")
+
+# Some methods to return boolean data
+
+print(first.startswith("C"))
+print(first.endswith("B"))
+
+# Boolean data type
+
+value = True
+x = bool(False)
+print(type(x))
+print(isinstance(value, bool))
+print("")
+
+# Numeric data type
+
+# Integer type
+
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+print("")
+
+# Float type
+
+gpa = 3.27
+y = float(3.14)
+print(type(gpa))
+print(isinstance(y, float))
+print("")
+
+# Complex type
+
+compl_value = 5 + 2j
+print(type(compl_value))
+print(compl_value.real)
+print(compl_value.imag)
+print("")
+
+# Build-in function for numbers
+
+print(abs(gpa))
+print(round(gpa))
+print(round(gpa, 1))
+print("")
+
+print(math.pi)
+print(math.sqrt(121))
+print(math.ceil(gpa))
+print(math.floor(gpa))
